@@ -1,0 +1,142 @@
+/*=============================================
+=                  General                    =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+}
+
+/*=============================================
+=                  Header                     =
+=============================================*/
+.jumbotron{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1704/Sunset_waterfall_iceland-Scenery_Photo_HD_Wallpaper_1366x768.jpg);
+    height: 350px;
+    background-size: cover;
+
+}
+
+.user{
+    border-radius: 100%;
+}
+/*=============================================
+=                  Intro                      =
+=============================================*/
+
+/*=============================================
+=                  Features                   =
+=============================================*/
+
+/*=============================================
+=                  Reviews                    =
+=============================================*/
+
+/*=============================================
+=                  Gallery                    =
+=============================================*/
+
+/* TODO: 設定Hover特效 */
+
+[id^='galleryImage'] {
+    background-size: cover;
+    height: 250px;
+}
+
+[id^='galleryImage']>.galleryText {
+    color: white;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+/* 放入背景圖片 */
+
+#galleryImage1 {
+    background-image: url('../img/galleryImage1.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage2 {
+    background-image: url('../img/galleryImage2.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage3 {
+    background-image: url('../img/galleryImage3.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage4 {
+    background-image: url('../img/galleryImage4.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage5 {
+    background-image: url('../img/galleryImage5.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage6 {
+    background-image: url('../img/galleryImage6.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage7 {
+    background-image: url('../img/galleryImage7.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage8 {
+    background-image: url('../img/galleryImage8.jpg');
+    filter:grayscale(100%);
+}
+
+#galleryImage1:hover,#galleryImage2:hover,#galleryImage3:hover,#galleryImage4:hover,
+#galleryImage5:hover,#galleryImage6:hover,#galleryImage7:hover,#galleryImage8:hover{
+    filter:contrast(1.5);
+}
+
+.galleryText{
+    padding: 40px;
+    margin-top: 80px;
+    opacity: 0;
+}
+
+.galleryText:hover{
+    opacity: 1;
+}
+/*=============================================
+=                  Start Now                  =
+=============================================*/
+
+/*=============================================
+=                   Footer                    =
+=============================================*/
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-end p {
+    font-size: 8px;
+    margin: 0;
+}
